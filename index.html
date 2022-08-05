@@ -12,10 +12,12 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     
     <link href="css/site.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="d-flex flex-column h-100">
-
+<!--Nav Section-->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">App Name</a>
@@ -45,16 +47,29 @@
         </div>
     </div>
 </nav>
-
+<!--Body Content-->
     <main class="flex-shrink-0">
        <div class="container">
            <h1 class="mt-5">Template with dark fixed navbar and sticky footer</h1>
            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
        </div>
     </main>
-    <footer class="footer mt-auto py-3 bg-dark sticky-footer">
+    <footer class="footer mt-auto py-3 sticky-footer">
         <div class="container-fluid text-center">
-            <span class="text-muted">Place sticky footer content here.</span>
+            <div class="row row-cols-1 row-cols-lg-3 gy-2">
+                <div class="col order-last order-lg-first text-lite d-flex align-items-center">
+                    <div><span class="text-muted">&copy;2022 Ian Barton | ibarton299@gmail.com</span></div>
+                </div>
+                <div class="col d-flex align-items-center justify-content-center">
+                    <img src="img/logo.png" alt="Random Logo I Found Online" height="30">
+                </div>
+                <div class="col d-flex align-item-center justify-content-start justify-content-lg-end">
+                    <div class="row">
+                        <div class="col social"><a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BHtpTy2TxT0y6iTX%2BZ3h04g%3D%3D"><i class="fa fa-linkedin fa-2x social"></i></a></div>
+                        <div class="col social"><a href="https://github.com/Ian-Barton"><i class="fa fa-github fa-2x social"></i></a></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- Bootstrap JS -->
