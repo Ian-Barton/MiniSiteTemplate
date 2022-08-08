@@ -41,3 +41,15 @@ main>.container {
     bottom: 0;
     width: 100%;
 }
+.bsicon {
+    color:purple;
+}
+.jsicon {
+    color: yellow;
+}
+.htmlicon {
+    color: red;
+}
+.cssicon {
+    color: blue;
+}
