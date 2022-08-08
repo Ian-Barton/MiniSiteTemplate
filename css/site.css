@@ -41,6 +41,12 @@ main>.container {
     bottom: 0;
     width: 100%;
 }
+code[class*="language-"],
+pre[class*="language-"] {
+white-space: pre-wrap;
+word-break: break-all;
+word-wrap: break-word;
+}
 .bsicon {
     color:purple;
 }
